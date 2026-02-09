@@ -16,10 +16,10 @@ class Calculator:
         return a ** b
 
 if __name__ == "main":
-    calc = Calculator()
-    print("Addition:", calc.add(10,5))
-    print("Subtraction:", calc.subtract(10,5))
-    print("Multiplication:", calc.multiply(10,5))
-    print("Division:", calc.divide(10,5))
-    print("Modulo:", calc.modulo(10,5))
-    print("Power:", calc.power(10,5))
+    test = Calculator()
+    print("Addition:", test.add(10,5))
+    print("Subtraction:", test.subtract(10,5))
+    print("Multiplication:", test.multiply(10,5))
+    print("Division:", test.divide(10,5))
+    print("Modulo:", test.modulo(10,5))
+    print("Power:", test.power(10,5))
